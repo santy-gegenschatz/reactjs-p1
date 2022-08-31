@@ -1,0 +1,11 @@
+.div-main-wishlist {
+    background-color: #262d2d;
+    width: 90%;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}

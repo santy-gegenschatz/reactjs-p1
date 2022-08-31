@@ -1,0 +1,36 @@
+input {
+    margin: 7px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.div-details-Checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.div-main-Checkout {
+    background-color: white;
+    border-radius: 25px;
+    width: 50%;
+    padding: 10px;
+}
+
+.div-purchase-checkout {
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#purchase-value-checkout {
+    background-color: aquamarine;
+    width: 40%;
+    border-radius: 25px;
+}

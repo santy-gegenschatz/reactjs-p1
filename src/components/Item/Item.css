@@ -1,0 +1,49 @@
+/* Classes */
+.image-container {
+    margin: 0px;
+    border-radius: 15px;
+    background-color: rgb(255,255,255);
+    padding: 10px;
+}
+
+.item-container {
+    background-color: black;
+    width: 300px;
+    height: 415px;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.item-title {
+    margin: 5px;
+}
+
+.grey-text {
+    color: lightgrey;
+}
+
+.no-under-link {
+    text-decoration: none;
+}
+.white-text {
+    color: white;
+}
+
+/* Id's */
+#button-cart {
+    background-color: green;
+    width: 90%;
+    margin: 3px 5px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+#button-wishlist {
+    background-color: #7DE2D1;
+    width: 90%;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}

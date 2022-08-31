@@ -1,0 +1,17 @@
+.div-main-CartContainer {
+    background-color: #262d2d;
+    border-radius: 25px;
+    margin: 10px 5px 20px 5px;
+    padding: 15px;
+}
+
+#white-text {
+    color: white;
+    margin: 10px;
+}
+
+/* Id's */
+#modified-link {
+    color: white;
+    text-decoration: none;
+}

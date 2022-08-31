@@ -1,0 +1,6 @@
+.div-main-wishlistContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

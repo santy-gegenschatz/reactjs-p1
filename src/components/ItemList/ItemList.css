@@ -1,0 +1,9 @@
+.div-contenedor {
+    background: #262d2d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

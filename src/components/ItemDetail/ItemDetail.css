@@ -1,0 +1,38 @@
+/* Classes */
+.div-item-detail-container {
+    background-color: #262d2d;
+    width: 70%;
+    height: 50%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    grid-template-columns: 65% 35%;
+    grid-template-areas: 
+    "image text"
+    ". .";
+}
+
+.div-image-container {
+    grid-area: image;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.div-key-product-info {
+    grid-area: text;
+    background-color: #7DE2D1;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.image-product {
+    margin: 10%;
+    width: 50%;
+    height: 50%;
+}
+
+.price-text {
+    font-weight: bold;
+    font-size: 30px;
+}

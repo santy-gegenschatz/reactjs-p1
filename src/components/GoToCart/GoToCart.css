@@ -1,0 +1,20 @@
+.btn-margin {
+    margin: 5px;
+    width: 150px;
+}
+
+.main-div-GoToCart {
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Id's */
+#div-btn-GoToCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

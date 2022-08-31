@@ -1,0 +1,37 @@
+.div-button-giftcardelement {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.div-logo-giftcardelement {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 99%;
+    height: 99%;
+
+}
+
+.div-main-giftcardelement {
+    background: rgb(255,230,206);
+    background: linear-gradient(143deg, rgba(255,230,206,1) 35%, rgba(251,80,58,1) 100%);
+    border-radius: 25px;
+    height: 220px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Id's */
+#h1-logo-giftcardelement {
+    font-size: 50px;
+    margin: 0px;
+}

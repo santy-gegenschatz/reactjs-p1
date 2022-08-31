@@ -1,0 +1,16 @@
+form {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 25px;
+    height: 100px;
+    width: 300px;
+}
+.special-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

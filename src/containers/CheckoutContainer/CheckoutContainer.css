@@ -1,0 +1,8 @@
+.div-main-CheckoutContainer {
+    background-color: #262d2d;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

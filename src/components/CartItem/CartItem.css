@@ -1,0 +1,42 @@
+.div-main-cartitem {
+    background-color: #7DE2D1;
+    border-radius: 25px;
+    margin: 10px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 25% 45% 30%;
+    grid-template-rows: 100%;
+    grid-template-areas:
+    'photo details buttons';
+}
+
+.div-button-cartitem {
+    grid-area: buttons;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+.div-details-cartitem {
+    grid-area: details;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.div-photo-cartitem {
+    grid-area: photo;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Ids */
+#cartitem-image {
+    border-radius: 25px;
+    margin: 0px;
+}
